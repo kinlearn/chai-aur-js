@@ -16,3 +16,5 @@ score = null;
 let a = 0
 const truthy = a ? `truthy` : `falsy`;
 console.log(truthy);
+
+// **************************** Operations ********************************
