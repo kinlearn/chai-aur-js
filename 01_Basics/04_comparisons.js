@@ -20,3 +20,10 @@ Therefore,
     3) But when we do null == 0, JavaScript does not convert null object to 0. So, obviously it returns false
 */
 
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
+// // Avoid such conversions ☝️
+
+// // === triple check - stricter
+// console.log("0" === 0) // false
